@@ -1,0 +1,89 @@
+body{
+    background-image: url(./img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@font-face {
+    font-family: holyfat;
+    src: url(./Tipografías/Holyfat.ttf);
+}
+.pa{
+    color: darkgreen;
+}
+.pb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class{
+    font-family: holyfat;
+    font-size: 39px;
+    color: darkgreen;
+}
+.botoncito{
+    background-color: darkgreen;
+    border: none;
+    border-radius: 70%;
+    width: 200px;
+    height: 90px;
+}
+.img{
+    width: 100%;
+}
+.nav{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.nav-link{
+    color: rgb(161, 255, 66);
+}
+.text{
+    color: rgb(161, 255, 66);
+    margin-left: 40px;
+}
+.parrafo2{
+    text-align: center;
+    background-color: rgba(92, 255, 92, 0.795);
+    border-radius: 10px;
+}
+.objetivos{
+    font-family: holyfat;
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 10px;
+    text-align: center;
+    color:rgba(92, 255, 92, 0.89) ;
+
+}
+.t-temas{
+    font-family: holyfat;
+    background-color: rgba(255, 255, 255, 0.938);
+    border-radius: 10px;
+    text-align: center;
+    color:rgba(92, 255, 92, 0.89) 
+}
+.enlaces{
+    text-align: center;
+    background-color: rgba(92, 255, 92, 0.795);
+    border-radius: 10px;
+}
+.link{
+    color: white;
+}
+.tittle-benef{
+    font-family: holyfat;
+    font-size: 45px;
+    color: rgb(161, 255, 66);
+    text-align: center;
+    margin: 20px;
+}
+.img-footer{
+   margin-left: 600px;
+}
+.text-footer{
+    margin-left: 560px;
+}
+footer{
+    margin-top: 50px;
+}
